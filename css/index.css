@@ -1,15 +1,52 @@
 .jt-topo{
-	background-image: URL('http://localhost/obrasnet/img/home/imagem.jpg');
+	background-image: URL('../img/home/imagem.jpg');
 }
 .bd-topo{
-	background-image: URL('http://localhost/obrasnet/img/home/cover-transparent.png');
+	background-image: URL('../img/home/cover-transparent.png');
+}
+.menu-preso{
+	position: absolute;
+}
+@media only screen and (min-width: 800px) {
+	.distancia-topo{
+  	margin-top: 300px;
+	}
+	.menu-celular{
+		display: none;
+	}
+}
+@media only screen and (max-width: 799px) {
+	.menu-pc{
+		display: none;
+	}
+}
+.menu-celular{
+
+}
+.dropdown-menu{
+	background-image: url('../img/home/cover-transparent.png') !important;
+}
+nav ul li a:hover{
+	color: #f1c40f !important;
+}
+.bd-amarelo:hover{
+	color: black !important;
+}
+.ativo{
+	border-bottom: 3px solid #f1c40f;
 }
 .botao-jumbotron{
 	color: white;
 	background-color: #f1c40f;
 	font-size: 30px;
-	border-radius: 10px !important;
+	border-radius: 5px !important;
 	font-weight: bold;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.botao-jumbotron:hover{
+	color: #f1c40f;
+	background-color: white;
 }
 .texto-jb{
 	font-weight: 900;
@@ -40,7 +77,7 @@
 	max-width: 300px;
 }
 .box-2{
-	background-image: url('http://localhost/obrasnet/img/home/cover.png');
+	background-image: url('../img/home/cover.png');
 }
 .h1-box-2{
 	font-weight: 900;
@@ -83,4 +120,23 @@
 }
 .foto-box-5{
 	position: absolute;
+}
+.box-7{
+	background-color: #014961;
+}
+.box-7 h1{
+	color: white;
+}
+.box-8{
+	background-color: black;
+}
+.h5-box-8{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+.p-box-8{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
 }
