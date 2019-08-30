@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../css/planos.css">
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
 		<title>Obrasnet - Planos</title>
 	</head>
 	<body>
@@ -24,7 +26,7 @@
 						<a class="nav-link branco-bold ativo" href="planos.html">Planos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link branco-bold" href="#">Blog</a>
+						<a class="nav-link branco-bold" href="blog.html">Blog</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link branco-bold" href="#">Contato</a>
@@ -37,9 +39,9 @@
 					</li>
 				</ul>
 			</nav>
-			<nav class="navbar p-5 menu-celular">
+			<nav class="navbar menu-celular">
 				<a class="navbar-brand" href="#">
-					<img class="logo-obras" src="img/Obrasnet_horizontal.png" alt="">
+					<img class="logo-obras" src="../img/Obrasnet_horizontal.png" alt="">
 				</a>
 				<ul class="nav justify-content-end">
 					<div class="dropdown">
@@ -56,121 +58,116 @@
 				</ul>
 			</nav>
 			
-			</div>
-			<div class="box-1">
-				<h1 class="text-center texto-jb p-5">Planos</h1>
-				<p class="text-center text-justify p-jb mb-5">Encontre o plano que melhor se adequa a sua empresa.</p>
-				<div class="planos mx-auto">
-					<ul class="nav nav-pills mb-3 borda-botoes mx-auto" id="pills-tab" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active botao-ativo" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Anual</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Trimestral</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Mensal</a>
-						</li>
-					</ul>
-					<div class="tab-content" id="pills-tabContent">
-						<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-							<div class="mx-auto">
-							<div class="p-5 row text-center">
-								<div class="borda-plano col-lg-6 col-md-4 col-sm-12 pt-3">
-								<h1 class="h1-plano-esq">FOURIER</h1>
-								<p class="p-de">De: R$ 200,00</p>
-									<p class="p-por">Por R$ <span class="p-por-preco">120 / mês</span></p>
-								<a href="#" class="btn botao-esquerdo mb-4">Experimente grátis</a>
-								<div>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-								</div>
-							</div>
-						<div class="borda-plano col-lg-6 col-md-4 col-sm-12 pt-3">
-								<h1 class="h1-plano-dir">BHASKARA</h1>
-								<p class="p-de">De: R$ 100,00</p>
-									<p class="p-por">Por R$ <span class="p-por-preco">80 / mês</span></p>
-								<a class="btn botao-direito mb-4">Experimente grátis</a>
-								<div>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-									<p class="p-box-plano">PAINEL BI</p>
-								</div>
-							</div>
-							</div>
-						</div>
-						</div>
-					</div>
-						<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">2</div>
-						<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">3</div>
+		</div>
+		<div class="box-1">
+			<h1 class="text-center texto-jb p-5">Planos</h1>
+			<p class="text-center text-justify p-jb mb-5">Encontre o plano que melhor se adequa a sua empresa.</p>
+			<div class="container">
+				<div class="row">
+					<div class="d-flex borda-total mx-auto">
+						<a href="#" class="col-4 borda-ativa">Anual</a>
+						<a href="#" class="col-4 borda-desativada">Trimestral</a>
+						<a href="#" class="col-4 borda-desativada">Mensal</a>
 					</div>
 				</div>
-			<div class="box-8 p-5">
-				<div class="row ml-5">
-					<div class="col-lg-3 col-md-6 col-sm-12 p-1">
-						
-						<h5 class="h5-box-8 row">Address </h5>
-						<p class="p-box-8 row">IMD - Av. Senador Salgado Filho, 3000</p>
-						<p class="p-box-8 row">Lagoa Nova, CEP 56.078-970 - Natal/RN</p>
-						<h5 class="h5-box-8 row">Contato </h5>
-						<p class="p-box-8 row">(84) 99958-2547</p>
-					</div>
-					<div class="col-lg-2 col-md-6 col-sm-12 p-1">
-						<h5 class="h5-box-8 row">Menu</h5>
-						<a class="p-box-8 row" href="#">Home</a>
-						<a class="p-box-8 row" href="#">Funcionalidades</a>
-						<a class="p-box-8 row" href="#">Planos</a>
-						<a class="p-box-8 row" href="#">Blog</a>
-						<a class="p-box-8 row" href="#">Contato</a>
-					</div>
-					<div class="col-lg-2 col-md-6 col-sm-12 p-1">
-						<h5 class="h5-box-8 col-12">Redes Sociais</h5>
-						
-						<div class="col-12 pt-2">
-							<img class="" src="../img/footer/facebook-f-brands.png" alt="">
-							<img class="pl-5" src="../img/footer/instagram-brands.png" alt="">
+			</div>
+			<div class="planos container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 pr-2">
+						<div class="borda-plano plano-recom">
+							<div class="recom position-static">
+								<h5>Recomendado</h5>
+							</div>
+							<h1 class="h1-plano-esq pt-2">FOURIER</h1>
+							<p class="p-de">De: R$ 200,00</p>
+							<p class="p-por">Por R$ <span class="p-por-preco">120 / mês</span></p>
+							<a href="#" class="btn botao-esquerdo mb-4">Experimente grátis</a>
+							<div>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-2 col-md-6 col-sm-12">
-						<div class="col-12 img-col">
-							<img class="img-footer" src="../img/footer/banco_nordeste.png" alt="">
-						</div>
-						<div class="col-12 pt-1 img-col">
-							<img class="img-footer" src="../img/footer/Inova2.png" alt="">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="col-12 img-col">
-							<img class="p-1 img-footer" src="../img/footer/IMD_W.png" alt="">
-						</div>
-						<div class="col-12 pt-1 img-col">
-							<img class="p-1 img-footer" src="../img/footer/Logotipo_Versao_Branca.png" alt="">
+					<div class="col-lg-6 col-md-6 col-sm-12 pl-2">
+						<div class="borda-plano">
+							<h1 class="h1-plano-dir pt-5">BHASKARA</h1>
+							<p class="p-de">De: R$ 100,00</p>
+							<p class="p-por">Por R$ <span class="p-por-preco">80 / mês</span></p>
+							<a href="#" class="btn botao-direito mb-4">Experimente grátis</a>
+							<div>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+								<p class="p-box-plano">PAINEL BI</p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<hr style="background-color: gray" class="mt-5 mb-5">
 			</div>
-			<!-- Optional JavaScript -->
-			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		</body>
-	</html>
+		</div>
+		<div class="box-8 p-5">
+			<div class="row ml-5">
+				<div class="col-lg-3 col-md-6 col-sm-12 p-1">
+					<h5 class="h5-box-8 row">Address </h5>
+					<p class="p-box-8 row">IMD - Av. Senador Salgado Filho, 3000</p>
+					<p class="p-box-8 row">Lagoa Nova, CEP 56.078-970 - Natal/RN</p>
+					<h5 class="h5-box-8 row">Contato </h5>
+					<p class="p-box-8 row">(84) 99958-2547</p>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-12 p-1">
+					<h5 class="h5-box-8 row">Menu</h5>
+					<a class="p-box-8 row" href="#">Home</a>
+					<a class="p-box-8 row" href="#">Funcionalidades</a>
+					<a class="p-box-8 row" href="#">Planos</a>
+					<a class="p-box-8 row" href="#">Blog</a>
+					<a class="p-box-8 row" href="#">Contato</a>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-12 p-1">
+					<h5 class="h5-box-8 col-12">Redes Sociais</h5>
+					<div class="col-12 pt-2">
+						<img class="" src="../img/footer/facebook-f-brands.png" alt="">
+						<img class="pl-5" src="../img/footer/instagram-brands.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<div class="col-12 img-col">
+						<img class="img-footer" src="../img/footer/banco_nordeste.png" alt="">
+					</div>
+					<div class="col-12 pt-1 img-col">
+						<img class="img-footer" src="../img/footer/Inova2.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="col-12 img-col">
+						<img class="p-1 img-footer" src="../img/footer/IMD_W.png" alt="">
+					</div>
+					<div class="col-12 pt-1 img-col">
+						<img class="p-1 img-footer" src="../img/footer/Logotipo_Versao_Branca.png" alt="">
+					</div>
+				</div>
+			</div>
+			<hr style="background-color: gray" class="mt-5 mb-5">
+		</div>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>

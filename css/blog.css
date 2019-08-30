@@ -1,0 +1,20 @@
+body h1, h5, p{
+	font-family: 'Montserrat', sans-serif;
+}
+.blog-titulo{
+	
+	font-size: 80px;
+	color: #014961;
+	font-weight: bold;
+	margin: 50px 50px;
+
+}
+.categorias{
+	color: #014961;
+}
+.ultimas{
+	color: #014961;	
+}
+.media img{
+	width: 50%;
+}

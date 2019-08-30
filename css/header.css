@@ -1,0 +1,51 @@
+.bd-topo{
+	background-color: #2b5d74;
+}
+.logo-obras{
+	min-width: 100px;
+	max-width: 350px;
+}
+@media only screen and (min-width: 800px) {
+	.distancia-topo{
+  	margin-top: 300px;
+	}
+	.menu-celular{
+		display: none;
+	}
+	.menu-pc a{
+		font-size: 20px;
+		margin: 0 20px;
+	}
+}
+@media only screen and (max-width: 799px) {
+	.menu-pc{
+		display: none;
+	}
+}
+.menu-celular{
+
+}
+.dropdown-menu{
+	background-image: url('../img/home/cover.png') !important;
+}
+nav ul li a:hover{
+	color: #f1c40f !important;
+}
+.bd-amarelo:hover{
+	color: black !important;
+}
+
+.ativo{
+	border-bottom: 3px solid #f1c40f;
+}
+.branco-bold{
+	color: white;
+	font-weight: bold;
+}
+.borda-branca{
+	border: 1px solid white;
+	border-radius: 5px;
+}
+.bd-amarelo{
+	background-color: #f1c40f
+}

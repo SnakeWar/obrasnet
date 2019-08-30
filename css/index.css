@@ -1,148 +1,158 @@
 .jt-topo{
-	background-image: URL('../img/home/imagem.jpg');
+background-image: URL('../img/home/imagem.jpg');
 }
 .bd-topo{
-	background-image: URL('../img/home/cover-transparent.png');
+background-image: URL('../img/home/cover-transparent.png');
 }
 .menu-preso{
-	position: absolute;
+position: absolute;
 }
 @media only screen and (min-width: 800px) {
-	.distancia-topo{
-  	margin-top: 300px;
-	}
-	.menu-celular{
-		display: none;
-	}
+.distancia-topo{
+margin-top: 300px;
 }
-@media only screen and (max-width: 799px) {
-	.menu-pc{
-		display: none;
-	}
+.bd-topo h1{
+font-size: 50px;
+}
+.bd-topo p{
+font-size: 30px;
+}
+.bd-topo .botao-jumbotron{
+font-size: 50px;
 }
 .menu-celular{
-
+display: none;
+}
+.menu-pc a{
+font-size: 20px;
+margin: 0 20px;
+}
+}
+@media only screen and (max-width: 799px) {
+.menu-pc{
+display: none;
+}
+}
+.menu-celular{
 }
 .dropdown-menu{
-	background-image: url('../img/home/cover-transparent.png') !important;
+background-image: url('../img/home/cover-transparent.png') !important;
 }
 nav ul li a:hover{
-	color: #f1c40f !important;
+color: #f1c40f !important;
 }
 .bd-amarelo:hover{
-	color: black !important;
+color: black !important;
 }
 .ativo{
-	border-bottom: 3px solid #f1c40f;
+border-bottom: 3px solid #f1c40f;
 }
 .botao-jumbotron{
-	color: white;
-	background-color: #f1c40f;
-	font-size: 30px;
-	border-radius: 5px !important;
-	font-weight: bold;
-	padding-left: 40px;
-	padding-right: 40px;
+color: white;
+background-color: #f1c40f;
+font-size: 30px;
+border-radius: 5px !important;
+font-weight: bold;
+padding-left: 40px;
+padding-right: 40px;
 }
 .botao-jumbotron:hover{
-	color: #f1c40f;
-	background-color: white;
+color: #f1c40f;
+background-color: white;
 }
 .texto-jb{
-	font-weight: 900;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+color: white;
+font-family: 'Montserrat', sans-serif;
 }
 .p-jb{
-	text-align: center;
-	color: white;
-	font-size: 27px;
-	
-	font-family: 'Montserrat', sans-serif;
+text-align: center;
+color: white;
+font-size: 27px;
+
+font-family: 'Montserrat', sans-serif;
 }
 .branco-bold{
-	color: white;
-	font-weight: bold;
+color: white;
+font-weight: bold;
 }
 .borda-branca{
-	border: 1px solid white;
-	border-radius: 5px;
+border: 1px solid white;
+border-radius: 5px;
 }
 .bd-amarelo{
-	background-color: #f1c40f
+background-color: #f1c40f
 }
-
 .logo-obras{
-	min-width: 150px;
-	max-width: 300px;
+min-width: 150px;
+max-width: 350px;
 }
 .box-2{
-	background-image: url('../img/home/cover.png');
+background-image: url('../img/home/cover.png');
 }
 .h1-box-2{
-	font-weight: 900;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	
-}
-.amarelo{
-	color: #f1c40f;
-}
-.img-box-2{
+font-weight: 900;
+color: white;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
 
 }
+.amarelo{
+color: #f1c40f;
+}
+.img-box-2{
+}
 .box-3{
-	background-color: white;
+background-color: white;
 }
 .h1-box-3{
-	font-weight: 900;
-	color: #0a3d62;
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	
+font-weight: 900;
+color: #0a3d62;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
 }
 .img-bordas{
-	border: none;
+border: none;
 }
 .imagem-largura{
-	max-width: 300px;
+max-width: 300px;
 }
 .box-5{
-	background-color: #014961;
+background-color: #014961;
 }
 .p-box-5{
-	color: white;
+color: white;
 }
 .container-box-5{
-	position: relative;
-	height: 350px;
+position: relative;
+height: 350px;
 }
 .foto-box-5{
-	position: absolute;
+position: absolute;
 }
 .box-7{
-	background-color: #014961;
+background-color: #014961;
 }
 .box-7 h1{
-	color: white;
+color: white;
 }
 .box-8{
-	background-color: black;
+background-color: black;
 }
 .h5-box-8{
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 15px;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 15px;
 }
 .p-box-8{
-	color: white;
-	font-family: 'Montserrat', sans-serif;
+color: white;
+font-family: 'Montserrat', sans-serif;
 }
 .img-footer{
-	height: 60px;
+height: 60px;
 }
 .img-col{
-	margin-top: 20px
+margin-top: 20px
 }
