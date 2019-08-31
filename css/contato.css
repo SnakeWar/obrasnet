@@ -7,14 +7,15 @@ h5{
 }
 .contatos{
 	color: gray;
-	padding-top: 10px;
+	padding-top: 3px;
 	padding-left: 10px;
 	text-align: left;
 }
 .carta{
-	color: yellow;
+	width: 40px;
+	height: 30px;
 }
 .fone{
-	color: yellow;
-	padding-right: 5px;
+	width: 40px;
+	height: 30px;
 }	
