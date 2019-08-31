@@ -1,0 +1,20 @@
+h1, h5, p{
+	font-family: 'Montserrat', sans-serif;
+	color: #014961;
+}
+h5{
+	font-weight: bold;
+}
+.contatos{
+	color: gray;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+.carta{
+	color: yellow;
+}
+.fone{
+	color: yellow;
+	padding-right: 5px;
+}	

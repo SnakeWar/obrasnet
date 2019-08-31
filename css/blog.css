@@ -1,5 +1,6 @@
 body h1, h5, p{
 	font-family: 'Montserrat', sans-serif;
+	
 }
 .blog-titulo{
 	
@@ -12,9 +13,45 @@ body h1, h5, p{
 .categorias{
 	color: #014961;
 }
+.categorias-hr{
+	color: #014961;
+}
 .ultimas{
 	color: #014961;	
 }
 .media img{
 	width: 50%;
+}
+@media only screen and (max-width: 991px) {
+	.search{
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.ultimas{
+		margin-top: 30px;
+	}
+}
+.botao{
+	color: #014961 !important;
+	border: 1px solid #014961;
+	background-color: white;
+	font-size: 20px;
+	border-radius: 5px !important;
+	font-weight: bold;
+	padding: 6px 15px;
+}
+.botao:hover{
+	color: white !important;
+	border: 1px solid white;
+	background-color: #014961;
+}
+.botao:link{
+	text-decoration: none;
+}
+h5{
+	color: #014961;
+	font-weight: bold;
 }
