@@ -1,0 +1,16 @@
+.botao{
+color: white !important;
+border: 1px solid #014961;
+background-color: #014961;
+font-size: 15px;
+border-radius: 5px !important;
+font-weight: bold;
+padding: 6px 80px;
+margin-top: 5px;
+}
+.cadastrar:link{
+	text-decoration: none;
+}
+.cadastrar{
+	color: black;
+}
